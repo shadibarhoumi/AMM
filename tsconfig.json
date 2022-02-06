@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "target": "esnext",
+    "sourceMap": true,
+    "baseUrl": "."
+  },
+  "files": ["./hardhat.config.ts"],
+  "exclude": ["deploy"],
+  "include": ["build", "scripts", "contracts", "test"]
+}
